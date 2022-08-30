@@ -16,7 +16,9 @@ public class FirsherokuApplication {
 
     @RequestMapping("/")
     ResponseEntity<String> index() {
-        return ResponseEntity.ok("ok FirsherokuApplication");
+        return ResponseEntity.ok("Дядь, спасибо, ебаная хуйня взлетела, пример раздербанил)" +
+                "Косяк был и в Pom и в profile и в application.properties....");
+
     }
 
 }
